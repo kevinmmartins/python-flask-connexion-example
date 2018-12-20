@@ -1,0 +1,33 @@
+---
+swagger: "2.0"
+info:
+  description: "Basic project with Flask and Swagger"
+  version: "1.0.0"
+  title: "Basic project"
+  contact:
+    email: "kevinmmartins@gmail.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "0.0.0.0:8081"
+basePath: "/basic"
+tags:
+  - name: "alive"
+    description: "Keepalive"
+schemes:
+  - "http"
+paths:
+  /ping:
+    get:
+      tags:
+        - "alive"
+      summary: "Api keepalive"
+      description: "Api keepalive"
+      operationId: "is_alive"
+      produces:
+        - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "is alive"
+      x-swagger-router-controller: "basic.controllers.alive_controller"
