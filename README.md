@@ -19,5 +19,5 @@ sudo docker-compose up
 ## Health Check
 
 ```http
-http://localhost:8081/alive/ping
+http://localhost:8081/basic/ping
 ```
