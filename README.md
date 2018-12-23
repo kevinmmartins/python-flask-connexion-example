@@ -4,7 +4,7 @@ Basic Python project using Flask and Swagger
 
 ## Requirements
 
- *Docker Compose 1.21.2+
+Docker Compose 1.21.2+
 
 ## Run with Docker Compose
 
