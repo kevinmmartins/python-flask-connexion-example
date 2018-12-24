@@ -3,4 +3,4 @@ gunicorn==19.9.0
 psycopg2==2.7.6.1
 flask-marshmallow==0.9.0
 flask-cors==3.0.7
-connexion[swagger-ui]==2.1.0
+connexion[swagger-ui]==2.2.0
