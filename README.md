@@ -23,7 +23,7 @@ sudo docker-compose build
 sudo docker-compose up
 ```
 
-##Build the virtual environment
+## Build the virtual environment
 
 ```bash
 virtualenv -p /usr/bin/python3.6 venv
@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 pip3 install -r test-requirements.txt
 ```
 
-##Swagger definition:
+## Swagger definition:
 
 ```http
 http://localhost:8081/v1/swagger.json
@@ -44,7 +44,7 @@ http://localhost:8081/v1/swagger.json
 http://localhost:8081/v1/basic/ping
 ```
 
-##Launch tests:
+## Launch tests:
 
 ```bash
 source venv/bin/activate
