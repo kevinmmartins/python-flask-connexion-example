@@ -1,0 +1,5 @@
+sudo: true
+python:
+    - "3.6"
+install: pip install tox-travis
+script: tox
