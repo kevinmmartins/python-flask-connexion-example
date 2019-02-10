@@ -10,7 +10,7 @@ info:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "0.0.0.0:8081"
-basePath: "/basic"
+basePath: "/v1/basic"
 tags:
   - name: "alive"
     description: "Keepalive"
@@ -25,7 +25,7 @@ paths:
       description: "Api keepalive"
       operationId: "is_alive"
       produces:
-        - "application/json"
+        - "application/text"
       parameters: []
       responses:
         200:

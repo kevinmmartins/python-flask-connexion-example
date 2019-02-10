@@ -41,7 +41,7 @@ http://localhost:8081/v1/swagger.json
 ## Health Check
 
 ```http
-http://localhost:8081/basic/ping
+http://localhost:8081/v1/basic/ping
 ```
 
 ##Launch tests:
