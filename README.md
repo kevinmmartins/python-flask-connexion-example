@@ -35,7 +35,7 @@ pip3 install -r test-requirements.txt
 ##Swagger definition:
 
 ```http
-http://localhost:8082/v1/swagger.json
+http://localhost:8081/v1/swagger.json
 ```
 
 ## Health Check
