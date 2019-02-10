@@ -16,6 +16,10 @@ tags:
     description: "Keepalive"
 schemes:
   - "http"
+produces:
+  - "application/json"
+consumes:
+  - "application/json"
 paths:
   /ping:
     get:
@@ -24,8 +28,6 @@ paths:
       summary: "Api keepalive"
       description: "Api keepalive"
       operationId: "is_alive"
-      produces:
-        - "application/text"
       parameters: []
       responses:
         200:
