@@ -10,7 +10,8 @@ https://github.com/zalando/connexion
 
 ## Requirements
 
-Docker Compose 1.21.2+
+* Docker Compose 1.21.2+
+* Python 3.6 +
 
 ## Run with Docker Compose
 
@@ -22,8 +23,30 @@ sudo docker-compose build
 sudo docker-compose up
 ```
 
+##Build the virtual environment
+
+```bash
+virtualenv -p /usr/bin/python3.6 venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+pip3 install -r test-requirements.txt
+```
+
+##Swagger definition:
+
+```http
+http://localhost:8082/v1/swagger.json
+```
+
 ## Health Check
 
 ```http
 http://localhost:8081/basic/ping
+```
+
+##Launch tests:
+
+```bash
+source venv/bin/activate
+tox
 ```

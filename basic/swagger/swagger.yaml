@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  description: "Basic project with Flask and Swagger"
+  description: "Basic project with Flask and Connexion"
   version: "1.0.0"
-  title: "Basic project"
+  title: "Connexion example"
   contact:
     email: "kevinmmartins@gmail.com"
   license:
