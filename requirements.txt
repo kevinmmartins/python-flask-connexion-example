@@ -1,6 +1,6 @@
 setuptools >= 21.0.0
 gunicorn==19.9.0
-psycopg2==2.7.7
+psycopg2==2.8
 flask-marshmallow==0.10.0
 flask-cors==3.0.7
 connexion[swagger-ui]==2.2.0
